@@ -1,0 +1,9 @@
+SIGNAL_ANALYSIS:
+  DATASETS:
+    PATHS:
+      INPUT_DIR: "data/input"
+      OUTPUT_DIR: "data\\filtered"
+      RAW_DIR: "raw_data" 
+      RAW_FILE: "example_signals.xlsx"
+      FILTERED_FILE: "signals_filtered.xlsx"
+      PLOTS_FILTER: "plots"

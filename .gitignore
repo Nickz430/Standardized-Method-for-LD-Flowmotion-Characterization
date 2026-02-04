@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Generated output files (but keep folders for pipeline)
+plt/*.tif
+plt/*.png
+plt/*.pdf
+plt/*.jpg
+Tables/*.xlsx
+Tables/*.txt
+Tables/*.csv
+Tables/*.docx
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.cache
+.cache/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Local environment variables
+.env
+.env.local
+
+# Ignore everything in root folder except tracked items
+/*.R
+/*.RData
+/*.Rhistory
+/*.xlsx
+/*.txt
+/*.pdf
+/*.tif
+/*.png
+/*.docx
+/img/
+/ppt/
+/plt/
+/Tables/
+
+# Keep important files and folders
+!.gitkeep
+!config.yml
+!src/
+!requirements.txt
+
+# Data folder: ignore everything except input and filtered subfolders
+data/
+!data/input/
+!data/input/**
+!data/filtered/
+!data/filtered/**

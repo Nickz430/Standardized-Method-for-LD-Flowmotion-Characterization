@@ -1,0 +1,22 @@
+# Laser Doppler Flowmotion - Signal Processing Pipeline
+# Python 3.11+ Required
+
+# Core Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Wavelet Analysis
+PyWavelets>=1.4.1
+
+# Excel I/O
+openpyxl>=3.10.0
+
+# Development (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
