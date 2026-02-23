@@ -54,6 +54,8 @@ Tables/*.xlsx
 Tables/*.txt
 Tables/*.csv
 Tables/*.docx
+src/Back-up/
+
 # Temporary files
 *.tmp
 *.bak

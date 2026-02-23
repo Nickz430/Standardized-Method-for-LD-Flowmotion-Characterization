@@ -130,7 +130,6 @@ def main():
         3. Time-Frequency: Spectrogram generation using CWT
         4. Spectral Metrics: PSD analysis across frequency bands
         5. Spectral Comparison: Power spectrum overlay plots
-        6. Characteristic Extraction: Complete feature matrix generation
     """
     
     # Setup paths
@@ -164,7 +163,6 @@ def main():
         ("generate_spectrograms.py", "Step 3: Spectrogram Generation (CWT)", 3),
         ("generate_psd_analysis.py", "Step 4: PSD Analysis", 4),
         ("generate_power_spectrum.py", "Step 5: Power Spectrum Comparison", 5),
-        ("extract_cwt_characteristics.py", "Step 6: CWT Characteristics Extraction", 6),
     ]
     
     # Execute pipeline
@@ -216,9 +214,7 @@ def main():
         print("    - Figure3B.tif: Septic patient spectrogram")
         print("    - Figure4.tif: Power spectrum comparison")
         print("    - Figure5_PSD.tif: PSD values on power spectra")
-        print("\n  Tables (saved to Tables/ folder):")
-        print("    - signal_characteristics.xlsx: Feature matrix")
-        print("    - signal_characteristics.txt: Detailed report")
+
     else:
         print("\n✗ PIPELINE INCOMPLETE - CHECK ERRORS ABOVE")
     
