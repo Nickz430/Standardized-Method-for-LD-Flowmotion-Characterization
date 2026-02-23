@@ -72,19 +72,6 @@ Overlay plots comparing healthy vs. septic patient spectral characteristics.
 - **Input**: Average power spectra
 - **Output**:  Comparative PSD between healthy subject and septic shock patient
 
-#### Step 6: CWT Characteristics Extraction
-Comprehensive feature matrix generation from time and spectral domains.
-- **Input**: Raw and CWT-processed signals
-- **Output**: 
-  - `signal_characteristics.xlsx` (feature matrix)
-  - `signal_characteristics.txt` (detailed report)
-
-**Features Extracted:**
-- Time Domain: Mean, Variance, Std. Dev., Energy
-- Spectral Domain: Max peak frequency, Max power, Spectral entropy
-- Peak/Valley Detection: Number of spectral peaks and valleys
-- Band-Specific PSD: Power distribution across regulatory frequency bands
-
 ## Installation
 
 ### Requirements
